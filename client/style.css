@@ -28,7 +28,13 @@ li {
   background-color: #FAC166;
   box-shadow: 0px 10px 10px #888888;
 }
-.cloud {
+
+path {
+  stroke: #fff;
+  stroke-opacity: .5;
+}
+
+.chart {
   height: 80%;
   width: 500px;
   margin-bottom: 50px;
@@ -39,13 +45,25 @@ li {
   box-shadow: 0px 10px 10px #888888;
 }
 
+.cloud {
+  top: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  border: 1px black solid;
+  background-color: #455A69;
+  opacity: 0.5;
+
+  /*box-shadow: 0px 10px 10px #888888;*/
+}
+
 .cloudWords {
-  height: 20px;
+/*  height: 20px;
   width: 100px;
-  margin: 20px;
+  margin: 0px:;
   border: 1px solid black;
   border-radius: 5px;
-  background-color: red;
+  background-color: red;*/
 }
 
 .stories {
@@ -66,10 +84,4 @@ li {
   border-radius: 5px;
   background-color: green;
   box-shadow: 0px 10px 10px #888888;
-}
-
-.chart {
-  height: 50px;
-  width: 1100px;
-  background-color: blue;
 }
